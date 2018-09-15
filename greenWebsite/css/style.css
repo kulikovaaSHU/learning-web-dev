@@ -1,0 +1,36 @@
+body {
+	background-image: url("../images/background.png");
+	background-attachment: fixed;
+}
+
+.container {
+	background-color: white;
+	width: 60%;
+	height: 1600px;
+	margin: auto;
+	border-radius: 5px 30px;
+	margin-top: 3em;
+	margin-bottom: 6em;
+}
+
+.nav-link {
+	color: green;
+	background: lightgreen;
+	padding: 1em;
+	border-radius: 5px 30px;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-family: Arial;
+}
+
+.nav-link:hover {
+	color: darkgreen;
+}
+
+#navbar {
+	text-align: center;
+}
+
+.nav-button {
+
+}
