@@ -1,6 +1,7 @@
 body {
 	background-image: url("../images/background.png");
 	background-attachment: fixed;
+	font-family: Arial;
 }
 
 .container {
@@ -11,6 +12,7 @@ body {
 	border-radius: 5px 30px;
 	margin-top: 3em;
 	margin-bottom: 6em;
+	box-shadow: 2px 3px 10px grey;
 }
 
 .nav-link {
@@ -19,8 +21,9 @@ body {
 	padding: 1em;
 	border-radius: 5px 30px;
 	text-decoration: none;
-	font-size: 1.5em;
-	font-family: Arial;
+	font-size: 1.4em;
+	font-weight: bold;
+	box-shadow: 2px 3px 5px grey;
 }
 
 .nav-link:hover {
@@ -31,6 +34,64 @@ body {
 	text-align: center;
 }
 
-.nav-button {
+#logo {
+	width: 150px;
+	transform: translate(8%, 30%);
+}
 
+#title {
+	text-align: center;
+	margin-top: 3em;
+	color: pink;
+	font-size: 2.25em;
+	text-shadow: 1px 1px 3px grey;
+	box-shadow: 2px 3px 5px grey inset;
+	margin-left: 6em;
+	margin-right: 6em;
+	margin-top: 2em;
+	margin-bottom:2em;
+	padding-bottom:0.25em;
+	border-radius: 30px 5px;
+	border: 0.25em solid lightgreen;
+	background-image: url("../images/background.png");
+	background-attachment: fixed;
+}
+ #compName {
+ 	line-height: 3em;
+ }
+
+.section-title {
+	color: lightgreen;
+	text-shadow: 1px 1px 1px grey;
+	text-align: center;
+	font-size: 2em;
+}
+
+#about-par {
+	text-align: center;
+	color: darkgreen;
+	margin-left: 6em;
+	margin-right: 6em;
+}
+
+#services {
+	text-align: center;
+	color: darkgreen;
+}
+
+.services-list {
+	list-style-type: circle;
+	text-align: left;
+	margin-left: 20em;
+}
+
+.sub-section-title {
+	color: pink;
+	text-shadow: 1px 1px 1px grey;
+	font-size:1.5em;
+}
+
+#contact {
+	text-align: center;
+	color: darkgreen;
 }
