@@ -1,0 +1,104 @@
+body {
+	background: black;
+	background-image: url("https://picsum.photos/g/1500/1000/?random");
+	background-attachment: fixed;
+	
+}
+
+.container {
+	margin: auto;
+	background: #232323;
+	width: 1000px;
+	text-align: center;
+	font-size: 1rem;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #cecece;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+	top: 0;
+	box-shadow: 0 1px 3px black;
+}
+
+.nav-listing {
+	float:left;
+}
+
+.nav-link:link,visited,hover,active {
+	text-decoration: none;
+}
+
+.nav-link {
+	display: block;
+	padding-top: 20px;
+	width: 120px;
+	height: 40px;
+	color: #666666;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.nav-link:hover {
+	color: #cecece;
+	background: #3a3a3a;
+}
+
+.nav-link-active {
+	color: #cecece;
+	background: #3a3a3a;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    top: 0;
+    width: 1000px;
+    box-shadow: 0px 1px 3px black;
+}
+
+
+.main-body-div {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	border: dotted 1px #333333;
+	width: 800px;
+	border-radius: 5px;
+	padding: 2%;
+}
+
+.image {
+	width: 600px;
+	border-radius: 5px;
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+	box-shadow: 0px 1px 5px black;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.image:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.title-text {
+	color: #cecece;
+	font-size: 2.8rem;
+	text-transform: uppercase;
+	line-height: 20px;
+	margin-top:6%;
+	text-shadow: 1px 3px black;
+}
+
+.title-subtext {
+	color: #666666;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	line-height: 5px;
+}
